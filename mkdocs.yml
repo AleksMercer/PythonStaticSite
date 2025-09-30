@@ -1,0 +1,32 @@
+site_name: Python static site
+site_url: https://github.com/python
+site_description: "Создание и развертывание статического сайта"
+site_author: "https://github.com/AleksMercer"
+
+theme:
+  name: material
+  language: ru
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - search.suggest
+
+nav:
+  - Главная: index.md
+  - Исследование: research.md
+  - Этапы выполнения: stages.md
+
+plugins:
+  - search
+
+docs_dir: docs
+site_dir: site
+extra_css:
+  - css/custom.css
+extra_javascript:
+  - js/custom.js
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/AleksMercer/static-site-in-python
